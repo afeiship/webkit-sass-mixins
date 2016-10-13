@@ -1,0 +1,5 @@
+/*width Start*/
+@mixin w1($inNumber){
+  width: #{100/$inNumber+'%'};
+}
+/*width End*/
