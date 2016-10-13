@@ -5,7 +5,7 @@
 ## todos:
 - [x] enlarge.scss
 - [x] flip.scss
-- [ ] grid.scss
+- [x] grid.scss
 - [x] height.scss
 - [x] margin.scss
 - [x] padding.scss
