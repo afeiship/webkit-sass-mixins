@@ -11,8 +11,5 @@
   padding-right: if($last, 0, $gap);
   width: percentage($col/$sum);
   vertical-align: $align;
-  &.fluid {
-    width: percentage($col/$sum);
-  }
 }
 /*grid End*/
