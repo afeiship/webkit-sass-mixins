@@ -3,7 +3,12 @@
 
 
 ## todos:
-- [ ] size.scss
+- [x] height.scss
+- [x] margin.scss
+- [x] padding.scss
+- [x] size.scss
+- [x] text.scss
+- [x] width.scss
 
 
 ## resources:
