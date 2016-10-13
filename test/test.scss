@@ -10,3 +10,11 @@
 .hlh20{
   @include hlh(20px);
 }
+
+.flip-x{
+  @include flip('x');
+}
+
+.flip-y{
+  @include flip('y');
+}
