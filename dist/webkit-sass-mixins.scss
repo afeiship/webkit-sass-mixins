@@ -1,3 +1,10 @@
+/*hlh Start*/
+@mixin hlh($inValue){
+  height: $inValue;
+  line-height: $inValue;
+}
+/*hlh End*/
+
 /*size Start*/
 @mixin size($inWidth,$inHeight:'') {
   @if $inHeight != '' {

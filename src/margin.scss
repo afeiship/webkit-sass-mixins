@@ -1,0 +1,25 @@
+/*margin Start*/
+@mixin mt($inValue){
+  margin-top: $inValue;
+}
+@mixin mr($inValue){
+  margin-right: $inValue;
+}
+@mixin mb($inValue){
+  margin-bottom: $inValue;
+}
+@mixin ml($inValue){
+  margin-left: $inValue;
+}
+@mixin m($inValue){
+  margin: $inValue;
+}
+@mixin mx($inValue){
+  margin-left: $inValue;
+  margin-right: $inValue;
+}
+@mixin my($inValue){
+  margin-top: $inValue;
+  margin-bottom: $inValue;
+}
+/*margin End*/

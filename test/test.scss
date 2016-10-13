@@ -6,3 +6,7 @@
 .test2{
   @include size(10px,20px);
 }
+
+.hlh20{
+  @include hlh(20px);
+}

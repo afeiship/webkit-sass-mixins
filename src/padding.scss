@@ -1,0 +1,25 @@
+/*padding Start*/
+@mixin pt($inValue){
+  padding-top: $inValue;
+}
+@mixin pr($inValue){
+  padding-right: $inValue;
+}
+@mixin pb($inValue){
+  padding-bottom: $inValue;
+}
+@mixin pl($inValue){
+  padding-left: $inValue;
+}
+@mixin p($inValue){
+  padding: $inValue;
+}
+@mixin px($inValue){
+  padding-left: $inValue;
+  padding-right: $inValue;
+}
+@mixin py($inValue){
+  padding-top: $inValue;
+  padding-bottom: $inValue;
+}
+/*padding End*/

@@ -1,0 +1,9 @@
+/*text Start*/
+@mixin text-overflow($inWidth,$inHeight) {
+  max-width: $inWidth;
+  height: $inHeight;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/*text End*/
