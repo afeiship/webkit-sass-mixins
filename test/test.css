@@ -1,3 +1,5 @@
+/*enactive Start*/
+/*enactive End*/
 /*enlarge Start*/
 /*enlarge End*/
 /*flip Start*/
@@ -14,8 +16,16 @@
 /*size End*/
 /*text Start*/
 /*text End*/
-/*triangle Start*/
-/*triangle End*/
+/**
+ * @desc  triangle
+ * @param $width
+ * @param $height
+ * @param $color
+ * @param $direction: top bottom left right
+ */
+/**
+ * @desc Use svg
+ */
 /*width Start*/
 /*width End*/
 .test {

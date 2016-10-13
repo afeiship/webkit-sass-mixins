@@ -131,9 +131,10 @@
 @mixin text-overflow($inWidth,$inHeight) {
   max-width: $inWidth;
   height: $inHeight;
-  overflow: hidden;
-  text-overflow: ellipsis;
   white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  overflow: hidden;
 }
 /*text End*/
 

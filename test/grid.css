@@ -1,3 +1,5 @@
+/*enactive Start*/
+/*enactive End*/
 /*enlarge Start*/
 /*enlarge End*/
 /*flip Start*/
@@ -14,8 +16,16 @@
 /*size End*/
 /*text Start*/
 /*text End*/
-/*triangle Start*/
-/*triangle End*/
+/**
+ * @desc  triangle
+ * @param $width
+ * @param $height
+ * @param $color
+ * @param $direction: top bottom left right
+ */
+/**
+ * @desc Use svg
+ */
 /*width Start*/
 /*width End*/
 *, *:before, *:after {
@@ -43,10 +53,6 @@ h2 {
   vertical-align: top;
 }
 
-.features article.fluid {
-  width: 33.33333%;
-}
-
 .products article {
   background: #eee;
   width: 100%;
@@ -58,10 +64,6 @@ h2 {
   vertical-align: middle;
 }
 
-.products article.fluid {
-  width: 33.33333%;
-}
-
 .compare article {
   width: 100%;
   display: inline-block;
@@ -70,8 +72,4 @@ h2 {
   padding-right: 1em;
   width: 50%;
   vertical-align: top;
-}
-
-.compare article.fluid {
-  width: 50%;
 }
