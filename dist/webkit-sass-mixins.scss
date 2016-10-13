@@ -1,9 +1,61 @@
-/*hlh Start*/
+/*height Start*/
 @mixin hlh($inValue){
   height: $inValue;
   line-height: $inValue;
 }
-/*hlh End*/
+/*height End*/
+
+/*margin Start*/
+@mixin mt($inValue){
+  margin-top: $inValue;
+}
+@mixin mr($inValue){
+  margin-right: $inValue;
+}
+@mixin mb($inValue){
+  margin-bottom: $inValue;
+}
+@mixin ml($inValue){
+  margin-left: $inValue;
+}
+@mixin m($inValue){
+  margin: $inValue;
+}
+@mixin mx($inValue){
+  margin-left: $inValue;
+  margin-right: $inValue;
+}
+@mixin my($inValue){
+  margin-top: $inValue;
+  margin-bottom: $inValue;
+}
+/*margin End*/
+
+/*padding Start*/
+@mixin pt($inValue){
+  padding-top: $inValue;
+}
+@mixin pr($inValue){
+  padding-right: $inValue;
+}
+@mixin pb($inValue){
+  padding-bottom: $inValue;
+}
+@mixin pl($inValue){
+  padding-left: $inValue;
+}
+@mixin p($inValue){
+  padding: $inValue;
+}
+@mixin px($inValue){
+  padding-left: $inValue;
+  padding-right: $inValue;
+}
+@mixin py($inValue){
+  padding-top: $inValue;
+  padding-bottom: $inValue;
+}
+/*padding End*/
 
 /*size Start*/
 @mixin size($inWidth,$inHeight:'') {
@@ -16,3 +68,45 @@
   }
 }
 /*size End*/
+
+/*text Start*/
+@mixin text-overflow($inWidth,$inHeight) {
+  max-width: $inWidth;
+  height: $inHeight;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/*text End*/
+
+/*triangle Start*/
+/// Triangle helper mixin
+/// @param {Direction} $direction - Triangle direction, either `top`, `right`, `bottom` or `left`
+/// @param {Color} $color [currentcolor] - Triangle color
+/// @param {Length} $size [1em] - Triangle size
+@mixin triangle($direction, $color: currentcolor, $size: 1em) {
+   @if not index(top right bottom left, $direction){
+    @error "Direction must be either `top`, `right`, `bottom` or `left`.";
+  }
+  width: 0;
+  height: 0;
+  content: '';
+  z-index: 2;
+  border-#{opposite-position($direction)}: ($size * 1.5) solid $color;
+  $perpendicular-borders: $size solid transparent;
+  @if $direction == top or $direction == bottom {
+    border-left: $perpendicular-borders;
+    border-right: $perpendicular-borders;
+  }
+  @else if $direction == right or $direction == left {
+    border-bottom: $perpendicular-borders;
+    border-top: $perpendicular-borders;
+  }
+}
+/*triangle End*/
+
+/*width Start*/
+@mixin w1($inNumber){
+  width: #{100/$inNumber+'%'};
+}
+/*width End*/
