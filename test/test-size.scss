@@ -1,0 +1,8 @@
+@import "../dist/webkit-sass-mixins.scss";
+.test{
+  @include size(10px);
+}
+
+.test2{
+  @include size(10px,20px);
+}

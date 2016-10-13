@@ -1,0 +1,11 @@
+/*size Start*/
+@mixin size($inWidth,$inHeight:'') {
+  @if $inHeight != '' {
+    width:$inWidth;
+    height:$inHeight;
+  } @else {
+    width:$inWidth;
+    height:$inWidth;
+  }
+}
+/*size End*/
