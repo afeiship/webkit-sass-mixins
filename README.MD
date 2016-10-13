@@ -19,3 +19,5 @@
 + http://sassmeister.com/
 + http://snippets.barretlee.com/#!/snippets/sass
 + http://snippets.barretlee.com/#!/snippets/css/flip-an-image/
++ http://thesassway.com/intermediate/simple-grid-mixins
++ http://codepen.io/goschevski/pen/Awuyz
