@@ -3,6 +3,7 @@
 
 
 ## todos:
+- [x] flip.scss
 - [x] height.scss
 - [x] margin.scss
 - [x] padding.scss
@@ -15,3 +16,4 @@
 ## resources:
 + http://sassmeister.com/
 + http://snippets.barretlee.com/#!/snippets/sass
++ http://snippets.barretlee.com/#!/snippets/css/flip-an-image/
