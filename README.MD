@@ -21,3 +21,4 @@
 + http://snippets.barretlee.com/#!/snippets/css/flip-an-image/
 + http://thesassway.com/intermediate/simple-grid-mixins
 + http://codepen.io/goschevski/pen/Awuyz
++ https://github.com/huanz/mixins/blob/master/src/_triangle.scss
