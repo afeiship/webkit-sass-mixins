@@ -1,0 +1,28 @@
+@import "../dist/webkit-sass-mixins.scss";
+// Make sure you have this in your styles
+// because grid is using paddings
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h2 { margin-top: 0; }
+
+.features, .products, .compare {
+  @include dib-row;
+  margin-bottom: 50px;
+}
+
+.features article {
+  @include dib-col(1, 3);
+}
+
+.products article {
+  background: #eee;
+  @include dib-col(1, 3, $align: middle);
+}
+
+.compare article {
+  @include dib-col(1, 2);
+}

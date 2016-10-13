@@ -1,0 +1,13 @@
+/*enlarge Start*/
+@mixin enlarge($inValue) {
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -$inValue;
+    top: -$inValue;
+    bottom: -$inValue;
+    right: -$inValue;
+  }
+}
+/*enlarge End*/

@@ -1,0 +1,77 @@
+/*enlarge Start*/
+/*enlarge End*/
+/*flip Start*/
+/*flip End*/
+/*grid Start*/
+/*grid End*/
+/*height Start*/
+/*height End*/
+/*margin Start*/
+/*margin End*/
+/*padding Start*/
+/*padding End*/
+/*size Start*/
+/*size End*/
+/*text Start*/
+/*text End*/
+/*triangle Start*/
+/*triangle End*/
+/*width Start*/
+/*width End*/
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.features, .products, .compare {
+  font-size: 0;
+  margin-bottom: 50px;
+}
+
+.features article {
+  width: 100%;
+  display: inline-block;
+  font-size: 16px;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 33.33333%;
+  vertical-align: top;
+}
+
+.features article.fluid {
+  width: 33.33333%;
+}
+
+.products article {
+  background: #eee;
+  width: 100%;
+  display: inline-block;
+  font-size: 16px;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 33.33333%;
+  vertical-align: middle;
+}
+
+.products article.fluid {
+  width: 33.33333%;
+}
+
+.compare article {
+  width: 100%;
+  display: inline-block;
+  font-size: 16px;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 50%;
+  vertical-align: top;
+}
+
+.compare article.fluid {
+  width: 50%;
+}
