@@ -8,6 +8,8 @@
 /*grid End*/
 /*height Start*/
 /*height End*/
+/*justify-list Start*/
+/*justify-list End*/
 /*layoyt-tmb Start*/
 .layout-tmb {
   position: relative;
@@ -104,4 +106,20 @@
 
 .box-without-ft > .ft {
   height: 0;
+}
+
+.justify-list-demo {
+  width: 800px;
+  overflow: hidden;
+}
+
+.justify-list-demo > .inner {
+  width: 840px;
+  margin-left: -20px;
+}
+
+.justify-list-demo > .inner > .item {
+  width: 185px;
+  margin-left: 20px;
+  float: left;
 }

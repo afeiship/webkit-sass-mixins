@@ -26,3 +26,7 @@
 .box-without-ft{
   @include layout-tmb(50px);
 }
+
+.justify-list-demo{
+  @include justify-list(800px,4,20px);
+}

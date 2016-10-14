@@ -1,0 +1,19 @@
+/*justify-list Start*/
+@mixin justify-list($inWidth,$inLength,$inGap,$inItemPrefix:'.item') {
+  $item-widths: $inWidth - ($inLength - 1)*$inGap;
+  $item-width:$item-widths / $inLength;
+  $inner-width:$inWidth+2*$inGap;
+  width:$inWidth;
+  overflow: hidden;
+
+  >.inner{
+    width:$inner-width;
+    margin-left: -$inGap;
+    > #{$inItemPrefix} {
+      width: $item-width;
+      margin-left: $inGap;
+      float: left;
+    }
+  }
+}
+/*justify-list End*/
