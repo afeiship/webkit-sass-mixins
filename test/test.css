@@ -8,6 +8,25 @@
 /*grid End*/
 /*height Start*/
 /*height End*/
+/*layoyt-tmb Start*/
+.layout-tmb {
+  position: relative;
+}
+
+.layout-tmb > * {
+  position: absolute;
+  width: 100%;
+}
+
+.layout-tmb > .hd {
+  top: 0;
+}
+
+.layout-tmb > .ft {
+  bottom: 0;
+}
+
+/*layoyt-tmb End*/
 /*margin Start*/
 /*margin End*/
 /*padding Start*/
@@ -59,4 +78,30 @@
   transform: scaleY(-1);
   filter: FlipV;
   -ms-filter: "FlipV";
+}
+
+.box > .hd {
+  height: 50px;
+}
+
+.box > .bd {
+  top: 50px;
+  bottom: 80px;
+}
+
+.box > .ft {
+  height: 80px;
+}
+
+.box-without-ft > .hd {
+  height: 50px;
+}
+
+.box-without-ft > .bd {
+  top: 50px;
+  bottom: 0;
+}
+
+.box-without-ft > .ft {
+  height: 0;
 }

@@ -18,3 +18,11 @@
 .flip-y{
   @include flip('y');
 }
+
+.box{
+  @include layout-tmb(50px,80px);
+}
+
+.box-without-ft{
+  @include layout-tmb(50px);
+}

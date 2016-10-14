@@ -7,12 +7,14 @@
 - [x] flip.scss
 - [x] grid.scss
 - [x] height.scss
+- [x] layout-tmb.scss
 - [x] margin.scss
 - [x] padding.scss
 - [x] size.scss
 - [x] text.scss
 - [x] triangle.scss
 - [x] width.scss
+
 
 
 ## resources:
