@@ -35,6 +35,8 @@
 /*padding End*/
 /*size Start*/
 /*size End*/
+/*text-overflow Start*/
+/*text-overflow End*/
 /*text Start*/
 /*text End*/
 /**
@@ -49,8 +51,6 @@
  */
 /*width Start*/
 /*width End*/
-/*text-overflow Start*/
-/*text-overflow End*/
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
