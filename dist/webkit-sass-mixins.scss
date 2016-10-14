@@ -242,3 +242,20 @@
   width: #{100/$inNumber+'%'};
 }
 /*width End*/
+
+/*text-overflow Start*/
+@mixin text-overflow($inHeight,$inWidth) {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  overflow: hidden;
+}
+@mixin line-clamp($inLine) {
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display:flex;
+  display: -webkit-box;
+  -webkit-line-clamp: $inLine;
+  -webkit-box-orient: vertical;
+}
+/*text-overflow End*/

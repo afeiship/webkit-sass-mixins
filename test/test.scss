@@ -30,3 +30,9 @@
 .justify-list-demo{
   @include justify-list(800px,4,20px);
 }
+
+.line-clamp4{
+  line-height: 22px;
+  font-size: 14px;
+  @include line-clamp(4);
+}

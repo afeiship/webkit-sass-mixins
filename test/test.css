@@ -49,6 +49,8 @@
  */
 /*width Start*/
 /*width End*/
+/*text-overflow Start*/
+/*text-overflow End*/
 .test {
   width: 10px;
   height: 10px;
@@ -122,4 +124,15 @@
   width: 185px;
   margin-left: 20px;
   float: left;
+}
+
+.line-clamp4 {
+  line-height: 22px;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
 }
