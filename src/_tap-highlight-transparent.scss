@@ -1,0 +1,6 @@
+/*tap-highlight-transparent Start*/
+@mixin tap-highlight-transparent() {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent; // For some Androids
+}
+/*tap-highlight-transparent End*/
