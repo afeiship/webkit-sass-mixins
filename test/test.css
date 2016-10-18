@@ -88,3 +88,54 @@
   filter: FlipV;
   -ms-filter: "FlipV";
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.orderAct {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -o-box;
+  display: box;
+  height: 120px;
+  border: 1px solid #000;
+}
+
+.orderAct > li {
+  width: 1%;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-box-flex: 1;
+  -o-box-flex: 1;
+  box-flex: 1;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -o-box;
+  display: box;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-box-align: center;
+  -o-box-align: center;
+  box-align: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-box-pack: center;
+  -o-box-pack: center;
+  box-pack: center;
+}
+
+.orderAct > li > a {
+  border: 1px solid #eee;
+  width: 66px;
+  height: 77px;
+  display: block;
+  position: relative;
+}

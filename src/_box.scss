@@ -1,0 +1,29 @@
+//https://h5.m.taobao.com/mlapp/mytaobao.html#mlapp-mytaobao
+@mixin box-flex($n:1) {
+  -webkit-box-flex: $n;
+  -moz-box-flex: $n;
+  -ms-box-flex: $n;
+  -o-box-flex: $n;
+  box-flex: $n;
+}
+@mixin box-pack($value:center) {
+  -webkit-box-pack: $value;
+  -moz-box-pack: $value;
+  -ms-box-pack: $value;
+  -o-box-pack: $value;
+  box-pack: $value;
+}
+@mixin box-align($value:center) {
+  -webkit-box-align: $value;
+  -moz-box-align: $value;
+  -ms-box-align: $value;
+  -o-box-align: $value;
+  box-align: $value;
+}
+@mixin display-box {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -o-box;
+  display: box;
+}
