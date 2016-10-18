@@ -98,7 +98,7 @@ ul, li {
   list-style: none;
 }
 
-.orderAct {
+.box-flex-demo {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-box;
@@ -108,7 +108,7 @@ ul, li {
   border: 1px solid #000;
 }
 
-.orderAct > li {
+.box-flex-demo > li {
   width: 1%;
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
@@ -132,7 +132,7 @@ ul, li {
   box-pack: center;
 }
 
-.orderAct > li > a {
+.box-flex-demo > li > a {
   border: 1px solid #eee;
   width: 66px;
   height: 77px;

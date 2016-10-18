@@ -24,7 +24,7 @@ ul,li{
   list-style: none;
 }
 
-.orderAct{
+.box-flex-demo{
   @include display-box;
   height: 120px;
   border: 1px solid #000;
