@@ -28,3 +28,16 @@
   display: -o-box;
   display: box;
 }
+
+//horizontal
+// vertical
+// inline-axis
+// block-axis
+// inherit
+@mixin box-orient($value:horizontal) {
+  -moz-box-orient:$value;
+  -webkit-box-orient:$value;
+  o-box-orient:$value;
+  o-ms-orient:$value;
+  box-orient:$value;
+}

@@ -125,6 +125,7 @@
 /*box-sizing End*/
 
 //https://h5.m.taobao.com/mlapp/mytaobao.html#mlapp-mytaobao
+//https://www.zhihu.com/question/22991944
 @mixin box-flex($n:1) {
   -webkit-box-flex: $n;
   -moz-box-flex: $n;
@@ -152,6 +153,19 @@
   display: -ms-box;
   display: -o-box;
   display: box;
+}
+
+//horizontal
+// vertical
+// inline-axis
+// block-axis
+// inherit
+@mixin box-orient($value:horizontal) {
+  -moz-box-orient:$value;
+  -webkit-box-orient:$value;
+  o-box-orient:$value;
+  o-ms-orient:$value;
+  box-orient:$value;
 }
 
 /*clearfix Start*/
