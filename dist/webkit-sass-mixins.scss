@@ -184,7 +184,7 @@
   }
 }
 
-@mixin micro-clearfix {
+@mixin mini-clearfix {
   &:after {
     clear: both;
     content: "\200B";
