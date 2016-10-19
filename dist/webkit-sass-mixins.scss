@@ -221,6 +221,15 @@
 }
 /*dib-grid End*/
 
+/*filter Start*/
+@mixin filter-blur($inValue:3px) {
+  -webkit-filter: blur($inValue);
+  -moz-filter: blur($inValue);
+  -ms-filter: blur($inValue);
+  filter: blur($inValue);
+}
+/*filter End*/
+
 /*flexbox Start*/
 // Flexbox Mixins
 // --------------------------------------------------
