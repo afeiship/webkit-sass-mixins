@@ -1,0 +1,8 @@
+/*square Start*/
+@mixin square($inSize) {
+  text-align: center;
+  line-height: $inSize;
+  width:$inSize;
+  height:$inSize;
+}
+/*square End*/

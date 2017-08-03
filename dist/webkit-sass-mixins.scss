@@ -500,6 +500,15 @@
 }
 /*size End*/
 
+/*square Start*/
+@mixin square($inSize) {
+  text-align: center;
+  line-height: $inSize;
+  width:$inSize;
+  height:$inSize;
+}
+/*square End*/
+
 /*tap-highlight-transparent Start*/
 @mixin tap-highlight-transparent() {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
