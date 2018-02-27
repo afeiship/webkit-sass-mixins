@@ -1,7 +1,7 @@
 @mixin enlarge($distance: -10px ,$position: absolute) {
   &:after{
     position: $position;
-    content:'\0020';
+    content:'\200B';
     top: $distance;
     right: $distance;
     bottom: $distance;
