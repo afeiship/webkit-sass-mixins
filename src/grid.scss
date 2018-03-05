@@ -1,0 +1,17 @@
+@mixin grid($inGridPrefix, $inGridCount, $inKey, $inMaxWidth, $inIsResponsive){
+  @if $inIsResponsive == TRUE{
+    @media (inMaxWidth: $inMaxWidth) {
+      @for $value from 1 through $inGridCount {
+        #{$inGridPrefix}-#{$inKey}-#{$value}{
+          width: percentage($value/$inGridCount);
+        }
+      }
+    }
+  } @else{
+    @for $value from 1 through $inGridCount {
+      #{$inGridPrefix}-#{$inKey}-#{$value}{
+        width: percentage($value/$inGridCount);
+      }
+    }
+  }
+}

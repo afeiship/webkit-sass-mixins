@@ -170,13 +170,12 @@
 
 /*clearfix Start*/
 @mixin clearfix {
-  *zoom: 1;
-
+  // *zoom: 1;
   &:after,
   &:before {
     display: table;
     content: "";
-    line-height: 0;
+    // line-height: 0;
   }
 
   &:after {
@@ -423,6 +422,24 @@
   }
 }
 /*flip End*/
+
+@mixin grid($inGridPrefix, $inGridCount, $inKey, $inMaxWidth, $inIsResponsive){
+  @if $inIsResponsive == TRUE{
+    @media (inMaxWidth: $inMaxWidth) {
+      @for $value from 1 through $inGridCount {
+        #{$inGridPrefix}-#{$inKey}-#{$value}{
+          width: percentage($value/$inGridCount);
+        }
+      }
+    }
+  } @else{
+    @for $value from 1 through $inGridCount {
+      #{$inGridPrefix}-#{$inKey}-#{$value}{
+        width: percentage($value/$inGridCount);
+      }
+    }
+  }
+}
 
 /*height Start*/
 @mixin hlh($inValue){

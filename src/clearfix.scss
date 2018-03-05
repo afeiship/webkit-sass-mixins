@@ -1,12 +1,11 @@
 /*clearfix Start*/
 @mixin clearfix {
-  *zoom: 1;
-
+  // *zoom: 1;
   &:after,
   &:before {
     display: table;
     content: "";
-    line-height: 0;
+    // line-height: 0;
   }
 
   &:after {
