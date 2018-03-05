@@ -1,3 +1,4 @@
+/*grid Start*/
 @mixin grid($inGridPrefix, $inGridCount, $inKey, $inMaxWidth, $inIsResponsive){
   @if $inIsResponsive == TRUE{
     @media (inMaxWidth: $inMaxWidth) {
@@ -15,3 +16,4 @@
     }
   }
 }
+/*grid End*/
