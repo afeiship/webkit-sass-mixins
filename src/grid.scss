@@ -1,6 +1,6 @@
 /*grid Start*/
-@mixin grid($inGridPrefix, $inGridCount, $inKey, $inMaxWidth, $inIsResponsive){
-  @if $inIsResponsive == TRUE{
+@mixin grid($inGridPrefix, $inGridCount, $inKey, $inMaxWidth){
+  @if $inMaxWidth != auto{
     @media (inMaxWidth: $inMaxWidth) {
       @for $value from 1 through $inGridCount {
         #{$inGridPrefix}-#{$inKey}-#{$value}{
