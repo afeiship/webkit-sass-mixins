@@ -426,7 +426,7 @@
 /*grid Start*/
 @mixin grid($inGridPrefix, $inGridCount, $inKey, $inMinWidth){
   @if $inMinWidth != auto{
-    @media (min-width: $inMinWidth) {
+    @media screen and (min-width: $inMinWidth) {
       @for $value from 1 through $inGridCount {
         #{$inGridPrefix}-#{$inKey}-#{$value}{
           width: percentage($value/$inGridCount);
