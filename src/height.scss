@@ -3,4 +3,11 @@
   height: $inValue;
   line-height: $inValue;
 }
+
+@mixin box-whlh-center($inValue){
+  width: $inValue;
+  height: $inValue;
+  line-height: $inValue;
+  text-align: center;
+}
 /*height End*/
