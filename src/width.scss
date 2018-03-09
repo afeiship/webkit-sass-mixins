@@ -1,5 +1,5 @@
 /*width Start*/
 @mixin w1($inNumber){
-  width: #{100/$inNumber+'%'};
+  width: percentage(1/$inNumber);
 }
 /*width End*/
