@@ -1,22 +1,6 @@
 # webkit-sass-mixins
 > Webkit sass mixins.
 
-
-## todos:
-- [x] enlarge.scss
-- [x] flip.scss
-- [x] grid.scss
-- [x] height.scss
-- [x] layout-tmb.scss
-- [x] margin.scss
-- [x] padding.scss
-- [x] size.scss
-- [x] text.scss
-- [x] triangle.scss
-- [x] width.scss
-
-
-
 ## resources:
 + http://sassmeister.com/
 + http://snippets.barretlee.com/#!/snippets/sass
