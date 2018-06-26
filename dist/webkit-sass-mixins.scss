@@ -424,23 +424,42 @@
 /*flip End*/
 
 /*grid Start*/
-@mixin grid($inGridPrefix, $inGridCount, $inKey, $inMinWidth){
+@mixin grid-item($inGridPrefix, $inKey, $inValue, $inGridCount){
+  $percent: percentage($inValue/$inGridCount);
+  $prefix: #{$inGridPrefix}-#{$inKey};
+
+  @if $inKey == '' {
+    $prefix: $inGridPrefix;
+  }
+
+  #{$prefix}-#{$inValue}{
+    width: $percent;
+  }
+
+  #{$prefix}-offset-#{$inValue}{
+    margin-left: $percent;
+  }
+}
+
+// @include grid-item('.grid', 'u', 3, 24);
+// @include grid-item('.grid', '', 3, 24);
+
+@mixin grid($inGridPrefix:'.col', $inGridCount:24, $inKey:'u', $inMinWidth: auto){
   @if $inMinWidth != auto{
     @media screen and (min-width: $inMinWidth) {
       @for $value from 1 through $inGridCount {
-        #{$inGridPrefix}-#{$inKey}-#{$value}{
-          width: percentage($value/$inGridCount);
-        }
+        @include grid-item($inGridPrefix, $inKey, $value, $inGridCount);
       }
     }
   } @else{
     @for $value from 1 through $inGridCount {
-      #{$inGridPrefix}-#{$inKey}-#{$value}{
-        width: percentage($value/$inGridCount);
-      }
+      @include grid-item($inGridPrefix, $inKey, $value, $inGridCount);
     }
   }
 }
+
+// @include grid('.grid', 24,'u');
+// @include grid('.grid', 24,'');
 /*grid End*/
 
 /*height Start*/
