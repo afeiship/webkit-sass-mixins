@@ -1,8 +1,10 @@
 # webkit-sass-mixins
 > Webkit sass mixins.
 
-
-
+## installation
+```shell
+npm i -S @feizheng/webkit-sass-mixins
+```
 
 ## resources:
 + http://sassmeister.com/
