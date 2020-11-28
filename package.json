@@ -25,5 +25,13 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  }
+  },
+  "keywords": [
+    "webkit",
+    "scss",
+    "sass",
+    "mixins",
+    "mixin",
+    "modules"
+  ]
 }
