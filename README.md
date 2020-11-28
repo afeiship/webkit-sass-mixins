@@ -1,4 +1,4 @@
-# webkit-sass-mixins
+# wsui-mixins
 > Webkit sass mixins.
 
 [![version][version-image]][version-url]
@@ -8,33 +8,26 @@
 
 ## installation
 ```shell
-# install
-npm i @feizheng/webkit-sass-mixins
-
-# update
-npm update @feizheng/webkit-sass-mixins
+npm i @jswork/wsui-mixins
 ```
 
 ## usage
 ```scss
-@import '~@feizheng/webkit-sass-mixins';
+@import '~@jswork/wsui-mixins';
 ```
 
-## documentation
-- https://afeiship.github.io/webkit-sass-mixins/
-
 ## license
-Code released under [the MIT license](https://github.com/afeiship/webkit-sass-mixins/blob/master/LICENSE.txt).
+Code released under [the MIT license](https://github.com/afeiship/wsui-mixins/blob/master/LICENSE.txt).
 
-[version-image]: https://img.shields.io/npm/v/@feizheng/webkit-sass-mixins
-[version-url]: https://npmjs.org/package/@feizheng/webkit-sass-mixins
+[version-image]: https://img.shields.io/npm/v/@jswork/wsui-mixins
+[version-url]: https://npmjs.org/package/@jswork/wsui-mixins
 
-[license-image]: https://img.shields.io/npm/l/@feizheng/webkit-sass-mixins
-[license-url]: https://github.com/afeiship/webkit-sass-mixins/blob/master/LICENSE.txt
+[license-image]: https://img.shields.io/npm/l/@jswork/wsui-mixins
+[license-url]: https://github.com/afeiship/wsui-mixins/blob/master/LICENSE.txt
 
-[size-image]: https://img.shields.io/bundlephobia/minzip/@feizheng/webkit-sass-mixins
-[size-url]: https://github.com/afeiship/webkit-sass-mixins/blob/master/dist/webkit-sass-mixins.min.js
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/wsui-mixins
+[size-url]: https://github.com/afeiship/wsui-mixins/blob/master/dist/wsui-mixins.min.js
 
-[download-image]: https://img.shields.io/npm/dm/@feizheng/webkit-sass-mixins
-[download-url]: https://www.npmjs.com/package/@feizheng/webkit-sass-mixins
+[download-image]: https://img.shields.io/npm/dm/@jswork/wsui-mixins
+[download-url]: https://www.npmjs.com/package/@jswork/wsui-mixins
 

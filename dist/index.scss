@@ -1,9 +1,9 @@
 /*!
- * name: @feizheng/webkit-sass-mixins
+ * name: @jswork/wsui-mixins
  * description: Webkit sass mixins.
- * homepage: https://github.com/afeiship/webkit-sass-mixins
- * version: 2.0.0
- * date: 2020-07-25T12:27:22.619Z
+ * homepage: https://github.com/afeiship/wsui-mixins
+ * version: 1.0.0
+ * date: 2020-11-28 17:57:26
  * license: MIT
  */
 
@@ -757,7 +757,7 @@
 /*user-select End*/
 
 /*width Start*/
-@mixin w1($inNumber){
-  width: percentage(1/$inNumber);
+@mixin w1($num){
+  width: percentage(1/$num);
 }
 /*width End*/

@@ -3,7 +3,7 @@
 
   var gulp = require('gulp');
   var $ = require('gulp-load-plugins')({
-    pattern: ['gulp-*', 'gulp.*', 'del', '@feizheng/gulp-*'],
+    pattern: ['gulp-*', 'gulp.*', 'del', '@jswork/gulp-*'],
   });
 
   //styles
@@ -11,7 +11,7 @@
     return gulp
       .src('src/*.scss')
       .pipe($.concat('index.scss'))
-      .pipe($.feizheng.pkgHeader())
+      .pipe($.jswork.pkgHeader())
       .pipe(gulp.dest('dist'));
   });
 })();

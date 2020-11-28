@@ -1,31 +1,29 @@
 {
-  "name": "@feizheng/webkit-sass-mixins",
-  "version": "2.0.0",
+  "name": "@jswork/wsui-mixins",
+  "version": "1.0.0",
   "description": "Webkit sass mixins.",
-  "homepage": "https://github.com/afeiship/webkit-sass-mixins",
+  "homepage": "https://github.com/afeiship/wsui-mixins",
   "author": {
     "name": "afei",
     "email": "1290657123@qq.com"
   },
   "scripts": {
     "build": "gulp",
-    "start": "node server.js"
+    "start": "node server.js",
+    "release": "release-it"
   },
   "main": "dist/index.scss",
   "license": "MIT",
   "devDependencies": {
-    "@feizheng/gulp-pkg-header": "^1.0.2",
-    "@feizheng/next-global": "^1.0.2",
-    "@feizheng/rake-git": "^1.2.1",
-    "autoprefixer": "^9.7.4",
+    "@jswork/gulp-pkg-header": "^1.0.3",
     "del": "^5.1.0",
-    "express": "^4.17.1",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-load-plugins": "^2.0.2",
-    "gulp-rename": "^2.0.0"
+    "release-it": "^14.2.2"
   },
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org/"
   }
 }

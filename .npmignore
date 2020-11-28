@@ -13,3 +13,4 @@ LICENSE.txt
 Rakefile
 server.js
 .prettierrc
+.release-it.json
