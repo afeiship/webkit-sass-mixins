@@ -1,0 +1,11 @@
+// https://notestoself.dev/posts/css-select-last-grid-row/
+// https://keithclark.co.uk/articles/targeting-first-and-last-rows-in-css-grid-layouts/
+// https://codepen.io/keithclark/pen/Hygkt
+// https://codepen.io/diana_aceves/pen/KVGNZg
+// https://stackoverflow.com/questions/18744164/flex-box-align-last-row-to-grid
+@mixin last-grid-row($in-columns, $in-selector: ".is-item") {
+  &:nth-child(#{$in-columns}n + 1):nth-last-child(-n + #{$in-columns}),
+  &:nth-child(#{$in-columns}n + 1):nth-last-child(-n + #{$in-columns}) ~ #{$in-selector} {
+    @content;
+  }
+}

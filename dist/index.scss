@@ -3,7 +3,7 @@
  * description: Webkit sass mixins.
  * homepage: https://github.com/afeiship/wsui-mixins
  * version: 1.0.0
- * date: 2020-11-28 17:58:19
+ * date: 2021-01-15 11:26:23
  * license: MIT
  */
 
@@ -524,6 +524,13 @@
   text-align: center;
 }
 /*height End*/
+
+@mixin last-grid-row($in-columns, $in-selector: ".is-item") {
+  &:nth-child(#{$in-columns}n + 1):nth-last-child(-n + #{$in-columns}),
+  &:nth-child(#{$in-columns}n + 1):nth-last-child(-n + #{$in-columns}) ~ #{$in-selector} {
+    @content;
+  }
+}
 
 /*margin Start*/
 @mixin mt($inValue){
